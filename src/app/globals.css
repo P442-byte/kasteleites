@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+
+
+
+
+
+
+
+
+
+.content-heading{
+  display: flex;
+  padding: 20px;
+  border-bottom: rgb(0, 0, 0) solid 2px;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  background-color: rgb(255, 255, 255);
+}
+.list-heading{
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+}
+.list-container{
+  border-bottom: rgba(0, 0, 0, 0.477) solid 0.5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 25px;
+  padding-bottom: 50px;
+}
+
+.list-item{
+  margin: 20px;
+}
+
+ul{
+  list-style-type: none;
+}
+
+.main-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.filter-bar{
+  position: sticky;
+  top: 10%;
+}
+
+.resource-container{
+  flex-grow: 3;
+  flex-shrink: 3;
+  padding-right: 200px;
+}
+
+.filter-bar-container{
+  flex-grow: 1;
+  flex-shrink: 1;
+  padding-left: 20px;
+  padding-right: 20px;
+}

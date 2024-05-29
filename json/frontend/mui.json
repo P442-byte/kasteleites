@@ -1,0 +1,59 @@
+[
+    {
+        "side": "frontend",
+        "type": "mui",
+        "difficulty": "beginner",
+        "isSellected": false,
+
+        "heading": "MUI Basics",
+
+        "links": [
+            {
+                "title": "MUI Tutorial-1",
+                "link": "https://www.w3schools.com/"
+            },
+            {
+                "title": "MUI Tutorial-2",
+                "link": "https://www.w3schools.com/"
+            }
+        ]
+    },
+    {
+        "side": "frontend",
+        "type": "mui",
+        "difficulty": "intermediate",
+        "isSellected": false,
+
+        "heading": "MUI Intermediate",
+
+        "links": [
+            {
+                "title": "MUI Tutorial-3",
+                "link": "https://www.w3schools.com/"
+            },
+            {
+                "title": "MUI Tutorial-4",
+                "link": "https://www.w3schools.com/"
+            }
+        ]
+    },
+    {
+        "side": "frontend",
+        "type": "mui",
+        "difficulty": "advanced",
+        "isSellected": false,
+
+        "heading": "MUI Advanced",
+
+        "links": [
+            {
+                "title": "MUI Tutorial-5",
+                "link": "https://www.w3schools.com/"
+            },
+            {
+                "title": "MUI Tutorial-6",
+                "link": "https://www.w3schools.com/"
+            }
+        ]
+    }
+]

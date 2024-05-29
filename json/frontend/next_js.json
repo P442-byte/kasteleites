@@ -1,0 +1,59 @@
+[
+    {
+        "side": "frontend",
+        "type": "next_js",
+        "difficulty": "beginner",
+        "isSellected": false,
+
+        "heading": "Next.js Basics",
+
+        "links": [
+            {
+                "title": "Next.js Tutorial-1",
+                "link": "https://www.w3schools.com/"
+            },
+            {
+                "title": "Next.js Tutorial-2",
+                "link": "https://www.w3schools.com/"
+            }
+        ]
+    },
+    {
+        "side": "frontend",
+        "type": "next_js",
+        "difficulty": "intermediate",
+        "isSellected": false,
+
+        "heading": "Next.js Intermediate",
+
+        "links": [
+            {
+                "title": "Next.js Tutorial-3",
+                "link": "https://www.w3schools.com/"
+            },
+            {
+                "title": "Next.js Tutorial-4",
+                "link": "https://www.w3schools.com/"
+            }
+        ]
+    },
+    {
+        "side": "frontend",
+        "type": "next_js",
+        "difficulty": "advanced",
+        "isSellected": false,
+
+        "heading": "Next.js Advanced",
+
+        "links": [
+            {
+                "title": "Next.js Tutorial-5",
+                "link": "https://www.w3schools.com/"
+            },
+            {
+                "title": "Next.js Tutorial-6",
+                "link": "https://www.w3schools.com/"
+            }
+        ]
+    }
+]

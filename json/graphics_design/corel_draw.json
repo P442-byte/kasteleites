@@ -1,0 +1,63 @@
+[
+    {
+        "side": "graphics_design",
+        "type": "corel_draw",
+        "difficulty": "beginner",
+        "isSellected": false,
+
+        "heading": "CorelDRAW Basics",
+
+        "links": [
+            {
+                "title": "HTML Tutorial-1",
+                "link": "https://www.w3schools.com/"
+            },
+            {
+                "title": "HTML Tutorial-2",
+                "link": "https://www.w3schools.com/"
+            }
+        ]
+    },
+    {
+        "side": "graphics_design",
+        "type": "corel_draw",
+        "difficulty": "intermediate",
+        "isSellected": false,
+
+        "heading": "CorelDRAW Intermediate",
+
+        "links": [
+            {
+                "title": "HTML Tutorial-3",
+                "link": "https://www.w3schools.com/"
+            },
+            {
+                "title": "HTML Tutorial-4",
+                "link": "https://www.w3schools.com/"
+            }
+        ]
+    },
+    {
+        "side": "graphics_design",
+        "type": "corel_draw",
+        "difficulty": "advanced",
+        "isSellected": false,
+
+        "heading": "CorelDRAW Advanced",
+
+        "links": [
+            {
+                "title": "Adobe Photoshop Tutorial-5",
+                "link": "https://www.w3schools.com/"
+            },
+            {
+                "title": "HTML Tutorial-6",
+                "link": "https://www.w3schools.com/"
+            },
+            {
+                "title": "HTML Tutorial-7",
+                "link": "https://www.w3schools.com/"
+            }
+        ]
+    }
+]

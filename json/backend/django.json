@@ -1,0 +1,59 @@
+[
+    {
+        "side": "backend",
+        "type": "django",
+        "difficulty": "beginner",
+        "isSellected": false,
+
+        "heading": "Django Basics",
+
+        "links": [
+            {
+                "title": "Django Tutorial-1",
+                "link": "https://www.w3schools.com/"
+            },
+            {
+                "title": "Django Tutorial-2",
+                "link": "https://www.w3schools.com/"
+            }
+        ]
+    },
+    {
+        "side": "backend",
+        "type": "django",
+        "difficulty": "intermediate",
+        "isSellected": false,
+
+        "heading": "Django Intermediate",
+
+        "links": [
+            {
+                "title": "Django Tutorial-3",
+                "link": "https://www.w3schools.com/"
+            },
+            {
+                "title": "Django Tutorial-4",
+                "link": "https://www.w3schools.com/"
+            }
+        ]
+    },
+    {
+        "side": "backend",
+        "type": "django",
+        "difficulty": "advanced",
+        "isSellected": false,
+
+        "heading": "Django Advanced",
+
+        "links": [
+            {
+                "title": "Django Tutorial-5",
+                "link": "https://www.w3schools.com/"
+            },
+            {
+                "title": "Django Tutorial-6",
+                "link": "https://www.w3schools.com/"
+            }
+        ]
+    }
+]

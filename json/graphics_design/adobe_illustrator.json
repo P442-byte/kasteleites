@@ -1,0 +1,63 @@
+[
+    {
+        "side": "graphics_design",
+        "type": "adobe_illustrator",
+        "difficulty": "beginner",
+        "isSellected": false,
+
+        "heading": "Adobe Illustrator Basics",
+
+        "links": [
+            {
+                "title": "HTML Tutorial-1",
+                "link": "https://www.w3schools.com/"
+            },
+            {
+                "title": "HTML Tutorial-2",
+                "link": "https://www.w3schools.com/"
+            }
+        ]
+    },
+    {
+        "side": "graphics_design",
+        "type": "adobe_illustrator",
+        "difficulty": "intermediate",
+        "isSellected": false,
+
+        "heading": "Adobe Illustrator Intermediate",
+
+        "links": [
+            {
+                "title": "HTML Tutorial-3",
+                "link": "https://www.w3schools.com/"
+            },
+            {
+                "title": "HTML Tutorial-4",
+                "link": "https://www.w3schools.com/"
+            }
+        ]
+    },
+    {
+        "side": "graphics_design",
+        "type": "adobe_illustrator",
+        "difficulty": "advanced",
+        "isSellected": false,
+
+        "heading": "Adobe Illustrator Advanced",
+
+        "links": [
+            {
+                "title": "Adobe Photoshop Tutorial-5",
+                "link": "https://www.w3schools.com/"
+            },
+            {
+                "title": "HTML Tutorial-6",
+                "link": "https://www.w3schools.com/"
+            },
+            {
+                "title": "HTML Tutorial-7",
+                "link": "https://www.w3schools.com/"
+            }
+        ]
+    }
+]

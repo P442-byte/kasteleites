@@ -1,0 +1,63 @@
+[
+    {
+        "side": "frontend",
+        "type": "html",
+        "difficulty": "beginner",
+        "isSellected": true,
+
+        "heading": "HTML Basics",
+
+        "links": [
+            {
+                "title": "HTML Tutorial-1",
+                "link": "https://www.w3schools.com/"
+            },
+            {
+                "title": "HTML Tutorial-2",
+                "link": "https://www.w3schools.com/"
+            }
+        ]
+    },
+    {
+        "side": "frontend",
+        "type": "html",
+        "difficulty": "intermediate",
+        "isSellected": true,
+
+        "heading": "HTML Intermediate",
+
+        "links": [
+            {
+                "title": "HTML Tutorial-3",
+                "link": "https://www.w3schools.com/"
+            },
+            {
+                "title": "HTML Tutorial-4",
+                "link": "https://www.w3schools.com/"
+            }
+        ]
+    },
+    {
+        "side": "frontend",
+        "type": "html",
+        "difficulty": "advanced",
+        "isSellected": true,
+
+        "heading": "HTML Advanced",
+
+        "links": [
+            {
+                "title": "HTML Tutorial-5",
+                "link": "https://www.w3schools.com/"
+            },
+            {
+                "title": "HTML Tutorial-6",
+                "link": "https://www.w3schools.com/"
+            },
+            {
+                "title": "HTML Tutorial-7",
+                "link": "https://www.w3schools.com/"
+            }
+        ]
+    }
+]

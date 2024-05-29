@@ -1,0 +1,59 @@
+[
+    {
+        "side": "frontend",
+        "type": "figma",
+        "difficulty": "beginner",
+        "isSellected": false,
+
+        "heading": "Figma Basics",
+
+        "links": [
+            {
+                "title": "Figma Tutorial-1",
+                "link": "https://www.w3schools.com/"
+            },
+            {
+                "title": "Figma Tutorial-2",
+                "link": "https://www.w3schools.com/"
+            }
+        ]
+    },
+    {
+        "side": "frontend",
+        "type": "figma",
+        "difficulty": "intermediate",
+        "isSellected": false,
+
+        "heading": "Figma Intermediate",
+
+        "links": [
+            {
+                "title": "Figma Tutorial-3",
+                "link": "https://www.w3schools.com/"
+            },
+            {
+                "title": "Figma Tutorial-4",
+                "link": "https://www.w3schools.com/"
+            }
+        ]
+    },
+    {
+        "side": "frontend",
+        "type": "figma",
+        "difficulty": "advanced",
+        "isSellected": false,
+
+        "heading": "Figma Advanced",
+
+        "links": [
+            {
+                "title": "Figma Tutorial-5",
+                "link": "https://www.w3schools.com/"
+            },
+            {
+                "title": "Figma Tutorial-6",
+                "link": "https://www.w3schools.com/"
+            }
+        ]
+    }
+]

@@ -1,0 +1,59 @@
+[
+    {
+        "side": "frontend",
+        "type": "javascript",
+        "difficulty": "beginner",
+        "isSellected": false,
+
+        "heading": "Javascript Basics",
+
+        "links": [
+            {
+                "title": "Javascript Tutorial-1",
+                "link": "https://www.w3schools.com/"
+            },
+            {
+                "title": "Javascript Tutorial-2",
+                "link": "https://www.w3schools.com/"
+            }
+        ]
+    },
+    {
+        "side": "frontend",
+        "type": "javascript",
+        "difficulty": "intermediate",
+        "isSellected": false,
+
+        "heading": "Javascript Intermediate",
+
+        "links": [
+            {
+                "title": "Javascript Tutorial-3",
+                "link": "https://www.w3schools.com/"
+            },
+            {
+                "title": "Javascript Tutorial-4",
+                "link": "https://www.w3schools.com/"
+            }
+        ]
+    },
+    {
+        "side": "frontend",
+        "type": "javascript",
+        "difficulty": "advanced",
+        "isSellected": false,
+
+        "heading": "Javascript Advanced",
+
+        "links": [
+            {
+                "title": "Javascript Tutorial-5",
+                "link": "https://www.w3schools.com/"
+            },
+            {
+                "title": "Javascript Tutorial-6",
+                "link": "https://www.w3schools.com/"
+            }
+        ]
+    }
+]

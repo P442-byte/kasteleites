@@ -1,0 +1,59 @@
+[
+    {
+        "side": "frontend",
+        "type": "react",
+        "difficulty": "beginner",
+        "isSellected": false,
+
+        "heading": "React Basics",
+
+        "links": [
+            {
+                "title": "React Tutorial-1",
+                "link": "https://www.w3schools.com/"
+            },
+            {
+                "title": "React Tutorial-2",
+                "link": "https://www.w3schools.com/"
+            }
+        ]
+    },
+    {
+        "side": "frontend",
+        "type": "react",
+        "difficulty": "intermediate",
+        "isSellected": false,
+
+        "heading": "React Intermediate",
+
+        "links": [
+            {
+                "title": "React Tutorial-3",
+                "link": "https://www.w3schools.com/"
+            },
+            {
+                "title": "React Tutorial-4",
+                "link": "https://www.w3schools.com/"
+            }
+        ]
+    },
+    {
+        "side": "frontend",
+        "type": "react",
+        "difficulty": "advanced",
+        "isSellected": false,
+
+        "heading": "React Advanced",
+
+        "links": [
+            {
+                "title": "React Tutorial-5",
+                "link": "https://www.w3schools.com/"
+            },
+            {
+                "title": "React Tutorial-6",
+                "link": "https://www.w3schools.com/"
+            }
+        ]
+    }
+]
