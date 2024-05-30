@@ -206,17 +206,18 @@ export default function Courses() {
   ];
 
 
-  const handleLeftSlide = () => {
+  const handleLeftSlide = (id) => {
     console.log("left");
-    var slider = document.getElementById("slider");
+    var slider = document.getElementById(id);
     slider.scrollLeft = slider.scrollLeft - 500;
   }
 
-  const handleRightSlide = () => {
+  const handleRightSlide = (id) => {
     console.log("right");
-    var slider = document.getElementById("slider");
+    var slider = document.getElementById(id);
     slider.scrollLeft += 500;
   }
+
 
   return (
     <main className="flex min-h-screen flex-col bg-[#121212]">
@@ -255,8 +256,8 @@ export default function Courses() {
                 <div key={i}>
                   <h2 className=' text-white list-heading font-semibold'>{d.heading}</h2>
                   <div className="relative flex items-center">
-                    <FaChevronLeft size={40} className=" left-0 z-10 cursor-pointer" onClick={() => handleLeftSlide()} />
-                    <div id="slider" className="w-full h-full overflow-x-scroll whitespace-nowrap scroll-smooth">
+                    <FaChevronLeft size={40} className=" text-slate-200 opacity-50 hover:opacity-100 left-0 z-10 cursor-pointer" onClick={() => handleLeftSlide(i)} />
+                    <div id={i} className="w-full h-full overflow-x-scroll whitespace-nowrap scroll-smooth">
                       <ul className='list-container' key={i}>
                         {d.links.map((d, i) =>
                               <li className='w-[220px] inline-block p-2 cursor-pointer hover:scale-105 ease-in-out duration-300 text-blue-500 ' key={i}><Link href={d.link}>{d.title}</Link></li>
@@ -264,7 +265,7 @@ export default function Courses() {
                         <br/>
                       </ul>
                     </div>
-                    <FaChevronRight size={40} className=" right-0 z-10 cursor-pointer" onClick={() => handleRightSlide()} />
+                    <FaChevronRight size={40} className=" text-slate-200 opacity-50 hover:opacity-100 right-0 z-10 cursor-pointer" onClick={() => handleRightSlide(i)} />
                   </div>
                 </div>
               )}
