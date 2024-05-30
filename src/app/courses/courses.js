@@ -219,6 +219,7 @@ export default function Courses() {
   }
 
 
+  
   return (
     <main className="flex min-h-screen flex-col bg-[#121212]">
       <CoursesNavbar />
@@ -256,16 +257,24 @@ export default function Courses() {
                 <div key={i}>
                   <h2 className=' text-white list-heading font-semibold'>{d.heading}</h2>
                   <div className="relative flex items-center">
-                    <FaChevronLeft size={40} className=" text-slate-200 opacity-50 hover:opacity-100 left-0 z-10 cursor-pointer" onClick={() => handleLeftSlide(i)} />
-                    <div id={i} className="w-full h-full overflow-x-scroll whitespace-nowrap scroll-smooth">
+                    <FaChevronLeft size={40} className=" text-slate-200 opacity-20 hover:opacity-80 left-0 z-10 cursor-pointer" onClick={() => handleLeftSlide(i)} />
+                    <div id={i} className="w-full h-full overflow-x-scroll whitespace-nowrap scroll-smooth scrollbar-hide">
                       <ul className='list-container' key={i}>
                         {d.links.map((d, i) =>
-                              <li className='w-[220px] inline-block p-2 cursor-pointer hover:scale-105 ease-in-out duration-300 text-blue-500 ' key={i}><Link href={d.link}>{d.title}</Link></li>
+                              <div>
+                                <iframe
+                                  className=' rounded-3xl w-[480px] h-[300px] m-5 inline-block cursor-pointer hover:scale-105 ease-in-out duration-300 text-blue-500 ' key={i}
+                                  src={d.link}
+                                  frameborder="0"
+                                  allowFullScreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"
+                                />
+                                <h2 className=' text-center cursor-pointer hover:scale-105 ease-in-out duration-300 text-blue-500 '>{d.title}</h2>
+                              </div>
                         )}
                         <br/>
                       </ul>
                     </div>
-                    <FaChevronRight size={40} className=" text-slate-200 opacity-50 hover:opacity-100 right-0 z-10 cursor-pointer" onClick={() => handleRightSlide(i)} />
+                    <FaChevronRight size={40} className=" text-slate-200 opacity-20 hover:opacity-80 right-0 z-10 cursor-pointer" onClick={() => handleRightSlide(i)} />
                   </div>
                 </div>
               )}
