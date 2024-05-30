@@ -9,11 +9,15 @@
 
         "links": [
             {
-                "title": "HTML Tutorial-1",
+                "title": "Adobe Illustrator Tutorial-1",
                 "link": "https://www.w3schools.com/"
             },
             {
-                "title": "HTML Tutorial-2",
+                "title": "Adobe Illustrator Tutorial-2",
+                "link": "https://www.w3schools.com/"
+            },
+            {
+                "title": "Adobe Illustrator Tutorial-3",
                 "link": "https://www.w3schools.com/"
             }
         ]
@@ -24,15 +28,19 @@
         "difficulty": "intermediate",
         "isSellected": false,
 
-        "heading": "Adobe Illustrator Intermediate",
+        "heading": "Adobe Illustrator Starting Courses",
 
         "links": [
             {
-                "title": "HTML Tutorial-3",
+                "title": "Adobe Illustrator Tutorial-4",
                 "link": "https://www.w3schools.com/"
             },
             {
-                "title": "HTML Tutorial-4",
+                "title": "Adobe Illustrator Tutorial-5",
+                "link": "https://www.w3schools.com/"
+            },
+            {
+                "title": "Adobe Illustrator Tutorial-6",
                 "link": "https://www.w3schools.com/"
             }
         ]
@@ -43,19 +51,19 @@
         "difficulty": "advanced",
         "isSellected": false,
 
-        "heading": "Adobe Illustrator Advanced",
+        "heading": "Adobe Illustrator Projects",
 
         "links": [
             {
-                "title": "Adobe Photoshop Tutorial-5",
+                "title": "Adobe Illustrator Tutorial-7",
                 "link": "https://www.w3schools.com/"
             },
             {
-                "title": "HTML Tutorial-6",
+                "title": "Adobe Illustrator Tutorial-8",
                 "link": "https://www.w3schools.com/"
             },
             {
-                "title": "HTML Tutorial-7",
+                "title": "Adobe Illustrator Tutorial-9",
                 "link": "https://www.w3schools.com/"
             }
         ]

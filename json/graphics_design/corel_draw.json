@@ -9,11 +9,15 @@
 
         "links": [
             {
-                "title": "HTML Tutorial-1",
+                "title": "CorelDRAW Tutorial-1",
                 "link": "https://www.w3schools.com/"
             },
             {
-                "title": "HTML Tutorial-2",
+                "title": "CorelDRAW Tutorial-2",
+                "link": "https://www.w3schools.com/"
+            },
+            {
+                "title": "CorelDRAW Tutorial-3",
                 "link": "https://www.w3schools.com/"
             }
         ]
@@ -24,15 +28,19 @@
         "difficulty": "intermediate",
         "isSellected": false,
 
-        "heading": "CorelDRAW Intermediate",
+        "heading": "CorelDRAW Starting Courses",
 
         "links": [
             {
-                "title": "HTML Tutorial-3",
+                "title": "CorelDRAW Tutorial-4",
                 "link": "https://www.w3schools.com/"
             },
             {
-                "title": "HTML Tutorial-4",
+                "title": "CorelDRAW Tutorial-5",
+                "link": "https://www.w3schools.com/"
+            },
+            {
+                "title": "CorelDRAW Tutorial-6",
                 "link": "https://www.w3schools.com/"
             }
         ]
@@ -43,19 +51,19 @@
         "difficulty": "advanced",
         "isSellected": false,
 
-        "heading": "CorelDRAW Advanced",
+        "heading": "CorelDRAW Projects",
 
         "links": [
             {
-                "title": "Adobe Photoshop Tutorial-5",
+                "title": "CorelDRAW Tutorial-7",
                 "link": "https://www.w3schools.com/"
             },
             {
-                "title": "HTML Tutorial-6",
+                "title": "CorelDRAW Tutorial-8",
                 "link": "https://www.w3schools.com/"
             },
             {
-                "title": "HTML Tutorial-7",
+                "title": "CorelDRAW Tutorial-9",
                 "link": "https://www.w3schools.com/"
             }
         ]

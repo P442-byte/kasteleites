@@ -9,12 +9,16 @@
 
         "links": [
             {
-                "title": "Docker Tutorial-1",
-                "link": "https://www.w3schools.com/"
+                "title": "Docker 101",
+                "link": "https://www.youtube.com/embed/rIrNIzy6U_g?si=t_onI9BbFiU--RWO"
             },
             {
-                "title": "Docker Tutorial-2",
-                "link": "https://www.w3schools.com/"
+                "title": "Docker Containers",
+                "link": "https://www.youtube.com/embed/eGz9DS-aIeY?si=OJvVVhZt8QM8xMba"
+            },
+            {
+                "title": "Docker In 7 Steps",
+                "link": "https://www.youtube.com/embed/gAkwW2tuIqE?si=1NxU1lIP5G3hTcmQ"
             }
         ]
     },
@@ -24,16 +28,20 @@
         "difficulty": "intermediate",
         "isSellected": false,
 
-        "heading": "Docker Intermediate",
+        "heading": "Docker Starting Courses",
 
         "links": [
             {
-                "title": "Docker Tutorial-3",
-                "link": "https://www.w3schools.com/"
+                "title": "Docker Crash Course",
+                "link": "https://www.youtube.com/embed/pTFZFxd4hOI?si=FcbUXquFln5Pt5Dv"
             },
             {
-                "title": "Docker Tutorial-4",
-                "link": "https://www.w3schools.com/"
+                "title": "Main Docker Concepts",
+                "link": "https://www.youtube.com/embed/pg19Z8LL06w?si=1GZUYLQH59Moe969"
+            },
+            {
+                "title": "Docker In 1 Hour",
+                "link": "https://www.youtube.com/embed/GFgJkfScVNU?si=jnBgrwv0VprzkX_6"
             }
         ]
     },
@@ -43,16 +51,20 @@
         "difficulty": "advanced",
         "isSellected": false,
 
-        "heading": "Docker Advanced",
+        "heading": "Docker Projects",
 
         "links": [
             {
-                "title": "Docker Tutorial-5",
-                "link": "https://www.w3schools.com/"
+                "title": "Full Docker Course",
+                "link": "https://www.youtube.com/embed/Wf2eSG3owoA?si=BiIxF7-88FGaai_r"
             },
             {
-                "title": "Docker Tutorial-6",
-                "link": "https://www.w3schools.com/"
+                "title": "Docker Containers and Kubernetes Fundamentals",
+                "link": "https://www.youtube.com/embed/kTp5xUtcalw?si=fwnE_rasymXTB0gU"
+            },
+            {
+                "title": "Deploying Django with Docker Compose",
+                "link": "https://www.youtube.com/embed/mScd-Pc_pX0?si=veX6ob-yHzNqLfgG"
             }
         ]
     }

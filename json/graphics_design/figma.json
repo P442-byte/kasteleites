@@ -15,6 +15,10 @@
             {
                 "title": "Figma Tutorial-2",
                 "link": "https://www.w3schools.com/"
+            },
+            {
+                "title": "Figma Tutorial-3",
+                "link": "https://www.w3schools.com/"
             }
         ]
     },
@@ -24,15 +28,19 @@
         "difficulty": "intermediate",
         "isSellected": false,
 
-        "heading": "Figma Intermediate",
+        "heading": "Figma Starting Courses",
 
         "links": [
             {
-                "title": "Figma Tutorial-3",
+                "title": "Figma Tutorial-4",
                 "link": "https://www.w3schools.com/"
             },
             {
-                "title": "Figma Tutorial-4",
+                "title": "Figma Tutorial-5",
+                "link": "https://www.w3schools.com/"
+            },
+            {
+                "title": "Figma Tutorial-6",
                 "link": "https://www.w3schools.com/"
             }
         ]
@@ -43,15 +51,19 @@
         "difficulty": "advanced",
         "isSellected": false,
 
-        "heading": "Figma Advanced",
+        "heading": "Figma Projects",
 
         "links": [
             {
-                "title": "Figma Tutorial-5",
+                "title": "Figma Tutorial-7",
                 "link": "https://www.w3schools.com/"
             },
             {
-                "title": "Figma Tutorial-6",
+                "title": "Figma Tutorial-8",
+                "link": "https://www.w3schools.com/"
+            },
+            {
+                "title": "Figma Tutorial-9",
                 "link": "https://www.w3schools.com/"
             }
         ]

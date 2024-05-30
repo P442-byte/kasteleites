@@ -140,20 +140,20 @@ export default function Courses() {
           </li>
           <li className="mr-5">
             <TabButton2
-              selectTab={() => handleTabChange2("next_js")}
-              active={tab2 === "next_js"}
-            >
-              {" "}
-              Next.js{" "}
-            </TabButton2>
-          </li>
-          <li className="mr-5">
-            <TabButton2
               selectTab={() => handleTabChange2("react")}
               active={tab2 === "react"}
             >
               {" "}
               React{" "}
+            </TabButton2>
+          </li>
+          <li className="mr-5">
+            <TabButton2
+              selectTab={() => handleTabChange2("next_js")}
+              active={tab2 === "next_js"}
+            >
+              {" "}
+              Next.js{" "}
             </TabButton2>
           </li>
           <li className="mr-5">
@@ -224,7 +224,7 @@ export default function Courses() {
     <main className="flex min-h-screen flex-col bg-[#121212]">
       <CoursesNavbar />
       <div className="container mt-24 mx-auto px-12 py-4">
-        <div className="flex flex-row justify-start mt-8">
+        <div className="flex flex-row justify-center mt-8 ">
               <TabButton
                 selectTab={() => handleTabChange("graphics_design")}
                 active={tab === "graphics_design"}
@@ -247,7 +247,7 @@ export default function Courses() {
                 Backend{" "}
               </TabButton>
         </div>
-        <div className="mt-8">
+        <div className="flex flex-row justify-center mt-8 mb-8">
           {TAB_DATA.find((t) => t.id === tab).content}
         </div>
 
@@ -257,7 +257,7 @@ export default function Courses() {
                 <div key={i}>
                   <h2 className=' text-white list-heading font-semibold'>{d.heading}</h2>
                   <div className="relative flex items-center">
-                    <FaChevronLeft size={40} className=" text-slate-200 opacity-20 hover:opacity-80 left-0 z-10 cursor-pointer" onClick={() => handleLeftSlide(i)} />
+                    <FaChevronLeft size={40} className=" text-slate-200 opacity-20 hover:opacity-80 left-0  cursor-pointer" onClick={() => handleLeftSlide(i)} />
                     <div id={i} className="w-full h-full overflow-x-scroll whitespace-nowrap scroll-smooth scrollbar-hide">
                       <ul className='list-container' key={i}>
                         {d.links.map((d, i) =>
@@ -274,7 +274,7 @@ export default function Courses() {
                         <br/>
                       </ul>
                     </div>
-                    <FaChevronRight size={40} className=" text-slate-200 opacity-20 hover:opacity-80 right-0 z-10 cursor-pointer" onClick={() => handleRightSlide(i)} />
+                    <FaChevronRight size={40} className=" text-slate-200 opacity-20 hover:opacity-80 right-0  cursor-pointer" onClick={() => handleRightSlide(i)} />
                   </div>
                 </div>
               )}

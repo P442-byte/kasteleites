@@ -9,12 +9,16 @@
 
         "links": [
             {
-                "title": "Next.js Tutorial-1",
-                "link": "https://www.w3schools.com/"
+                "title": "Next.js vs React",
+                "link": "https://www.youtube.com/embed/r8nXMA_pf0w?si=qF2dwC8NekQyVqaE"
             },
             {
-                "title": "Next.js Tutorial-2",
-                "link": "https://www.w3schools.com/"
+                "title": "What you need to know",
+                "link": "https://www.youtube.com/embed/wd639F9aKU0?si=gkCD6Tcq5MZZC23M"
+            },
+            {
+                "title": "The story of Next.js",
+                "link": "https://www.youtube.com/embed/BILxV_vrZO0?si=_OmCM7_guTYHcOuI"
             }
         ]
     },
@@ -24,16 +28,20 @@
         "difficulty": "intermediate",
         "isSellected": false,
 
-        "heading": "Next.js Intermediate",
+        "heading": "Next.js Starting Courses",
 
         "links": [
             {
-                "title": "Next.js Tutorial-3",
-                "link": "https://www.w3schools.com/"
+                "title": "Next.js Concepts",
+                "link": "https://www.youtube.com/embed/vwSlYG7hFk0?si=W9I1jHTh-IXNYIuZ"
             },
             {
-                "title": "Next.js Tutorial-4",
-                "link": "https://www.w3schools.com/"
+                "title": "Next.js in 1 hour",
+                "link": "https://www.youtube.com/embed/Bobe707147M?si=VkCx1dpYspRA6Kr3"
+            },
+            {
+                "title": "Next.js Beginner Course",
+                "link": "https://www.youtube.com/embed/ZVnjOPwW4ZA?si=F6LuFkxtOhQZhrKx"
             }
         ]
     },
@@ -43,16 +51,20 @@
         "difficulty": "advanced",
         "isSellected": false,
 
-        "heading": "Next.js Advanced",
+        "heading": "Next.js Projects",
 
         "links": [
             {
-                "title": "Next.js Tutorial-5",
-                "link": "https://www.w3schools.com/"
+                "title": "Next.js Portfolio Website",
+                "link": "https://www.youtube.com/embed/qwtWcGeIe40?si=XfCefdM887M3BgqT"
             },
             {
-                "title": "Next.js Tutorial-6",
-                "link": "https://www.w3schools.com/"
+                "title": "Next.js Complete Course",
+                "link": "https://www.youtube.com/embed/vCOSTG10Y4o?si=rwae-Fd7ss4LIQvc"
+            },
+            {
+                "title": "Next.js E-Commerce Website",
+                "link": "https://www.youtube.com/embed/3JUsg-WsU9o?si=3LF8tfQ9T4eRaR8I"
             }
         ]
     }

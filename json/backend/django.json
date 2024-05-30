@@ -9,12 +9,16 @@
 
         "links": [
             {
-                "title": "Django Tutorial-1",
-                "link": "https://www.w3schools.com/"
+                "title": "Django in 8 minutes",
+                "link": "https://www.youtube.com/embed/0sMtoedWaf0?si=GlhB_1ojoIJ7kmvG"
             },
             {
-                "title": "Django Tutorial-2",
-                "link": "https://www.w3schools.com/"
+                "title": "Django Basics",
+                "link": "https://www.youtube.com/embed/nGIg40xs9e4?si=ubwBCIOl444ZcVfr"
+            },
+            {
+                "title": "Django REST Framework",
+                "link": "https://www.youtube.com/embed/cJveiktaOSQ?si=P9FzcXAXjkhOv9Ox"
             }
         ]
     },
@@ -24,16 +28,20 @@
         "difficulty": "intermediate",
         "isSellected": false,
 
-        "heading": "Django Intermediate",
+        "heading": "Django Starting Courses",
 
         "links": [
             {
-                "title": "Django Tutorial-3",
-                "link": "https://www.w3schools.com/"
+                "title": "Django in 1 hour",
+                "link": "https://www.youtube.com/embed/rHux0gMZ3Eg?si=xjYuifjz5ETTaMWV"
             },
             {
-                "title": "Django Tutorial-4",
-                "link": "https://www.w3schools.com/"
+                "title": "Make a Django REST API",
+                "link": "https://www.youtube.com/embed/t-uAgI-AUxc?si=y8pAvVL2yK61AD1d"
+            },
+            {
+                "title": "Django User Authentication & Registration",
+                "link": "https://www.youtube.com/embed/Z3qTXmT0yoI?si=xAuZtEdIXDkcREKY"
             }
         ]
     },
@@ -43,16 +51,33 @@
         "difficulty": "advanced",
         "isSellected": false,
 
-        "heading": "Django Advanced",
+        "heading": "Django Projects",
 
         "links": [
             {
-                "title": "Django Tutorial-5",
-                "link": "https://www.w3schools.com/"
+                "title": "Django To Do List App | Part 1",
+                "link": "https://www.youtube.com/embed/GRz3pcU89qU?si=k1PP3tQ7jxKz7yxf"
             },
             {
-                "title": "Django Tutorial-6",
-                "link": "https://www.w3schools.com/"
+                "title": "Django To Do List App | Part 2",
+                "link": "https://www.youtube.com/embed/F6br3jIBXMw?si=-t7NaJyzyZxOz2X9"
+            },
+            {
+                "title": "Django To Do List App | Part 3",
+                "link": "https://www.youtube.com/embed/OaQ8agO4Fy4?si=7r1yiraK1oWZN7g0"
+            },
+            {
+                "title": "Django To Do List App | Part 4",
+                "link": "https://www.youtube.com/embed/jZ_VSuyG84M?si=GuMUEqY4NhVOKiJg"
+            },
+            {
+                "title": "Django Blog App",
+                "link": "https://www.youtube.com/embed/Rp5vd34d-z4?si=xhOBpUyZtvbjuImi"
+            }
+            ,
+            {
+                "title": "Django Mastery",
+                "link": "https://www.youtube.com/embed/o0XbHvKxw7Y?si=2yzfU3ygqufm-u7Y"
             }
         ]
     }

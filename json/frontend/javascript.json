@@ -9,12 +9,16 @@
 
         "links": [
             {
-                "title": "Javascript Tutorial-1",
-                "link": "https://www.w3schools.com/"
+                "title": "Javascript in 100 Seconds",
+                "link": "https://www.youtube.com/embed/DHjqpvDnNGE?si=vSkMjJv6Xh6OK3Ud"
             },
             {
-                "title": "Javascript Tutorial-2",
-                "link": "https://www.w3schools.com/"
+                "title": "Javascript 101",
+                "link": "https://www.youtube.com/embed/lkIFF4maKMU?si=YpS9rO88kkxZxuoQ"
+            },
+            {
+                "title": "Javascript in 5 minutes",
+                "link": "https://www.youtube.com/embed/c-I5S_zTwAc"
             }
         ]
     },
@@ -24,16 +28,20 @@
         "difficulty": "intermediate",
         "isSellected": false,
 
-        "heading": "Javascript Intermediate",
+        "heading": "Javascript Starting Courses",
 
         "links": [
             {
-                "title": "Javascript Tutorial-3",
-                "link": "https://www.w3schools.com/"
+                "title": "Javascript in 30 Minutes",
+                "link": "https://www.youtube.com/embed/Ks0Z_qP2WEk?si=98ieaMiwl8yqvllW"
             },
             {
-                "title": "Javascript Tutorial-4",
-                "link": "https://www.w3schools.com/"
+                "title": "Javascript Course for Beginners",
+                "link": "https://www.youtube.com/embed/Zi-Q0t4gMC8?si=pp7HHJSzWDVdEBuH"
+            },
+            {
+                "title": "Javascript Crash Course",
+                "link": "https://www.youtube.com/embed/FtaQSdrl7YA?si=nTDdxdXiW_0JR6Cr"
             }
         ]
     },
@@ -43,16 +51,20 @@
         "difficulty": "advanced",
         "isSellected": false,
 
-        "heading": "Javascript Advanced",
+        "heading": "Javascript Projects",
 
         "links": [
             {
-                "title": "Javascript Tutorial-5",
-                "link": "https://www.w3schools.com/"
+                "title": "5 Beginner Javascript Projects",
+                "link": "https://www.youtube.com/embed/2ml4x0rO1PQ?si=6EdtEQecxphF-Lsa"
             },
             {
-                "title": "Javascript Tutorial-6",
-                "link": "https://www.w3schools.com/"
+                "title": "Javascript Full Course",
+                "link": "https://www.youtube.com/embed/lfmg-EJ8gm4"
+            },
+            {
+                "title": "Build 15 Javascript Projects",
+                "link": "https://www.youtube.com/embed/3PHXvlpOkf4?si=aIZr7Rq1K4CYsjoM"
             }
         ]
     }

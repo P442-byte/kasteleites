@@ -9,12 +9,16 @@
 
         "links": [
             {
-                "title": "MUI Tutorial-1",
-                "link": "https://www.w3schools.com/"
+                "title": "MUI 5 Basics",
+                "link": "https://www.youtube.com/embed/_W3uuxDnySQ?si=AISZlzJEe7_W091V"
             },
             {
-                "title": "MUI Tutorial-2",
-                "link": "https://www.w3schools.com/"
+                "title": "MUI SX Prop",
+                "link": "https://www.youtube.com/embed/hHMkuXjRZHY?si=MtNE3pJ6Jvnh3Vcd"
+            },
+            {
+                "title": "MUI Themes",
+                "link": "https://www.youtube.com/embed/SUEkAOuQZTQ?si=lwXCisA6IGnIGVKO"
             }
         ]
     },
@@ -24,16 +28,20 @@
         "difficulty": "intermediate",
         "isSellected": false,
 
-        "heading": "MUI Intermediate",
+        "heading": "MUI Starting Courses",
 
         "links": [
             {
-                "title": "MUI Tutorial-3",
-                "link": "https://www.w3schools.com/"
+                "title": "MUI Crash Course",
+                "link": "https://www.youtube.com/embed/o1chMISeTC0?si=yc_IGSCFN7-ShFQ1"
             },
             {
-                "title": "MUI Tutorial-4",
-                "link": "https://www.w3schools.com/"
+                "title": "MUI in 1 Hour",
+                "link": "https://www.youtube.com/embed/Xoz31I1FuiY?si=cgujU3IYlWfQHhYy"
+            },
+            {
+                "title": "MUI/React Tutorial",
+                "link": "https://www.youtube.com/embed/vyJU9efvUtQ?si=eGXmrMJW08mHltCa"
             }
         ]
     },
@@ -43,16 +51,20 @@
         "difficulty": "advanced",
         "isSellected": false,
 
-        "heading": "MUI Advanced",
+        "heading": "MUI Projects",
 
         "links": [
             {
-                "title": "MUI Tutorial-5",
-                "link": "https://www.w3schools.com/"
+                "title": "Mini MUI Poject",
+                "link": "https://www.youtube.com/embed/fzxEECHnsvU?si=Z-bhj5hWnjLpglvw"
             },
             {
-                "title": "MUI Tutorial-6",
-                "link": "https://www.w3schools.com/"
+                "title": "React / MUI Admin Dashboard App",
+                "link": "https://www.youtube.com/embed/wYpCWwD1oz0?si=moqgpII5YvILjARR"
+            },
+            {
+                "title": "Create a Youtube Clone App with React and MUI 5",
+                "link": "https://www.youtube.com/embed/FHTbsZEJspU?si=4Wg2RoKMUo7bGxZj"
             }
         ]
     }

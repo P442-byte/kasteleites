@@ -9,40 +9,16 @@
 
         "links": [
             {
-                "title": "HTML Tutorial-1",
-                "link": "https://www.youtube.com/embed/4UgbU0nzprg"
+                "title": "How do websites work?",
+                "link": "https://www.youtube.com/embed/MDLn5-zSQQI"
             },
             {
-                "title": "HTML Tutorial-2",
-                "link": "https://www.youtube.com/embed/hIjUo5NwlPk"
+                "title": "HTML in 5 minutes",
+                "link": "https://www.youtube.com/embed/salY_Sm6mv4"
             },
             {
-                "title": "HTML Tutorial-2",
-                "link": "https://www.w3schools.com/"
-            },
-            {
-                "title": "HTML Tutorial-2",
-                "link": "https://www.w3schools.com/"
-            },
-            {
-                "title": "HTML Tutorial-2",
-                "link": "https://www.w3schools.com/"
-            },
-            {
-                "title": "HTML Tutorial-2",
-                "link": "https://www.w3schools.com/"
-            },
-            {
-                "title": "HTML Tutorial-2",
-                "link": "https://www.w3schools.com/"
-            },
-            {
-                "title": "HTML Tutorial-2",
-                "link": "https://www.w3schools.com/"
-            },
-            {
-                "title": "HTML Tutorial-2",
-                "link": "https://www.w3schools.com/"
+                "title": "Essential HTML Tags",
+                "link": "https://www.youtube.com/embed/K_EVuLegRZ0?si=64526FGObbK81BdU"
             }
         ]
     },
@@ -52,44 +28,24 @@
         "difficulty": "intermediate",
         "isSellected": true,
 
-        "heading": "HTML Intermediate",
+        "heading": "HTML Starting Courses",
 
         "links": [
             {
-                "title": "HTML Tutorial-3",
-                "link": "https://www.w3schools.com/"
+                "title": "Creating a simple website with HTML",
+                "link": "https://www.youtube.com/embed/FQdaUv95mR8"
             },
             {
-                "title": "HTML Tutorial-4",
-                "link": "https://www.w3schools.com/"
+                "title": "HTML/CSS Full Course",
+                "link": "https://www.youtube.com/embed/HGTJBPNC-Gw"
             },
             {
-                "title": "HTML Tutorial-4",
-                "link": "https://www.w3schools.com/"
+                "title": "HTML Website Crash Course",
+                "link": "https://www.youtube.com/embed/916GWv2Qs08"
             },
             {
-                "title": "HTML Tutorial-4",
-                "link": "https://www.w3schools.com/"
-            },
-            {
-                "title": "HTML Tutorial-4",
-                "link": "https://www.w3schools.com/"
-            },
-            {
-                "title": "HTML Tutorial-4",
-                "link": "https://www.w3schools.com/"
-            },
-            {
-                "title": "HTML Tutorial-4",
-                "link": "https://www.w3schools.com/"
-            },
-            {
-                "title": "HTML Tutorial-4",
-                "link": "https://www.w3schools.com/"
-            },
-            {
-                "title": "HTML Tutorial-4",
-                "link": "https://www.w3schools.com/"
+                "title": "Beginner to Advanced HTML Course",
+                "link": "https://www.youtube.com/embed/kUMe1FH4CHE?si=EmNInJXr3otpCiU1"
             }
         ]
     },
@@ -99,88 +55,20 @@
         "difficulty": "advanced",
         "isSellected": true,
 
-        "heading": "HTML Advanced",
+        "heading": "HTML Projects",
 
         "links": [
             {
-                "title": "HTML Tutorial-5",
-                "link": "https://www.w3schools.com/"
+                "title": "Creating a Sushi-Themed Website with HTML and CSS",
+                "link": "https://www.youtube.com/embed/QRrPE9aj3wI"
             },
             {
-                "title": "HTML Tutorial-6",
-                "link": "https://www.w3schools.com/"
+                "title": "Creating a Portfolio Website",
+                "link": "https://www.youtube.com/embed/ldwlOzRvYOU"
             },
             {
-                "title": "HTML Tutorial-7",
-                "link": "https://www.w3schools.com/"
-            },
-            {
-                "title": "HTML Tutorial-7",
-                "link": "https://www.w3schools.com/"
-            },
-            {
-                "title": "HTML Tutorial-7",
-                "link": "https://www.w3schools.com/"
-            },
-            {
-                "title": "HTML Tutorial-7",
-                "link": "https://www.w3schools.com/"
-            },
-            {
-                "title": "HTML Tutorial-7",
-                "link": "https://www.w3schools.com/"
-            },
-            {
-                "title": "HTML Tutorial-7",
-                "link": "https://www.w3schools.com/"
-            },
-            {
-                "title": "HTML Tutorial-7",
-                "link": "https://www.w3schools.com/"
-            },
-            {
-                "title": "HTML Tutorial-7",
-                "link": "https://www.w3schools.com/"
-            },
-            {
-                "title": "HTML Tutorial-7",
-                "link": "https://www.w3schools.com/"
-            },
-            {
-                "title": "HTML Tutorial-7",
-                "link": "https://www.w3schools.com/"
-            },
-            {
-                "title": "HTML Tutorial-7",
-                "link": "https://www.w3schools.com/"
-            },
-            {
-                "title": "HTML Tutorial-7",
-                "link": "https://www.w3schools.com/"
-            },
-            {
-                "title": "HTML Tutorial-7",
-                "link": "https://www.w3schools.com/"
-            },
-            {
-                "title": "HTML Tutorial-7",
-                "link": "https://www.w3schools.com/"
-            },
-            {
-                "title": "HTML Tutorial-7",
-                "link": "https://www.w3schools.com/"
-            },
-            {
-                "title": "HTML Tutorial-7",
-                "link": "https://www.w3schools.com/"
-            },
-            {
-                "title": "HTML Tutorial-7",
-                "link": "https://www.w3schools.com/"
-            },
-            {
-                "title": "HTML Tutorial-7",
-                "link": "https://www.w3schools.com/"
+                "title": "Build and deploy 5 HTML Projects",
+                "link": "https://www.youtube.com/embed/a_iQb1lnAEQ?si=VE_X-hVjb_zChKq-"
             }
         ]
     }

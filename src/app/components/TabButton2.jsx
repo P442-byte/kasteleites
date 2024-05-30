@@ -1,24 +1,13 @@
 import React from "react";
-import { motion } from "framer-motion";
-
-const variants = {
-  default: { width: 0 },
-  active: { width: "calc(100% - 0.75rem)" },
-};
 
 const TabButton2 = ({ active, selectTab, children }) => {
-  const buttonClasses = active ? "text-white" : "text-[#ADB7BE]";
+  const buttonClasses = active ? "text-white opacity-100" : "text-[#ADB7BE] opacity-60";
 
   return (
     <button onClick={selectTab}>
-      <p className={`mr-3 font-medium text-sm hover:text-white ${buttonClasses}`}>
+      <p className={`mr-3 font-medium text-sm hover:text-white hover:opacity-100 ${buttonClasses}`}>
         {children}
       </p>
-      <motion.div
-        animate={active ? "active" : "default"}
-        variants={variants}
-        className="h-1 bg-[#00a4ba] mt-1 mr-3"
-      ></motion.div>
     </button>
   );
 };

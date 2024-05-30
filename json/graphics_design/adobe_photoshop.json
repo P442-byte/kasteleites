@@ -9,11 +9,15 @@
 
         "links": [
             {
-                "title": "HTML Tutorial-1",
+                "title": "Adobe Photoshop Tutorial-1",
                 "link": "https://www.w3schools.com/"
             },
             {
-                "title": "HTML Tutorial-2",
+                "title": "Adobe Photoshop Tutorial-2",
+                "link": "https://www.w3schools.com/"
+            },
+            {
+                "title": "Adobe Photoshop Tutorial-3",
                 "link": "https://www.w3schools.com/"
             }
         ]
@@ -24,15 +28,19 @@
         "difficulty": "intermediate",
         "isSellected": false,
 
-        "heading": "Adobe Photoshop Intermediate",
+        "heading": "Adobe Photoshop Starting Courses",
 
         "links": [
             {
-                "title": "HTML Tutorial-3",
+                "title": "Adobe Photoshop Tutorial-4",
                 "link": "https://www.w3schools.com/"
             },
             {
-                "title": "HTML Tutorial-4",
+                "title": "Adobe Photoshop Tutorial-5",
+                "link": "https://www.w3schools.com/"
+            },
+            {
+                "title": "Adobe Photoshop Tutorial-6",
                 "link": "https://www.w3schools.com/"
             }
         ]
@@ -43,19 +51,19 @@
         "difficulty": "advanced",
         "isSellected": false,
 
-        "heading": "Adobe Photoshop Advanced",
+        "heading": "Adobe Photoshop Projects",
 
         "links": [
             {
-                "title": "Adobe Photoshop Tutorial-5",
+                "title": "Adobe Photoshop Tutorial-7",
                 "link": "https://www.w3schools.com/"
             },
             {
-                "title": "HTML Tutorial-6",
+                "title": "Adobe Photoshop Tutorial-8",
                 "link": "https://www.w3schools.com/"
             },
             {
-                "title": "HTML Tutorial-7",
+                "title": "Adobe Photoshop Tutorial-9",
                 "link": "https://www.w3schools.com/"
             }
         ]

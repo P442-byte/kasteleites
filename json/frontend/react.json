@@ -9,12 +9,20 @@
 
         "links": [
             {
-                "title": "React Tutorial-1",
-                "link": "https://www.w3schools.com/"
+                "title": "The Heart of React",
+                "link": "https://www.youtube.com/embed/5XnU2cvgw5o?si=kafIVNRULzGn8fPs"
             },
             {
-                "title": "React Tutorial-2",
-                "link": "https://www.w3schools.com/"
+                "title": "How React works",
+                "link": "https://www.youtube.com/embed/za2FZ8QCE18?si=L-es1utzKqGFSaHr"
+            },
+            {
+                "title": "React Concepts",
+                "link": "https://www.youtube.com/embed/m_477l0Er9w?si=6nH5NKvNNYhFMq1p"
+            },
+            {
+                "title": "React in 10 minutes",
+                "link": "https://www.youtube.com/embed/s2skans2dP4?si=-JofWoaCkcabwuIl"
             }
         ]
     },
@@ -24,16 +32,20 @@
         "difficulty": "intermediate",
         "isSellected": false,
 
-        "heading": "React Intermediate",
+        "heading": "React Starting Courses",
 
         "links": [
             {
-                "title": "React Tutorial-3",
-                "link": "https://www.w3schools.com/"
+                "title": "React Crash Course",
+                "link": "https://www.youtube.com/embed/G8PWDBJspME?si=By_D5bvWe--7N8mY"
             },
             {
-                "title": "React Tutorial-4",
-                "link": "https://www.w3schools.com/"
+                "title": "React in 40 minutes",
+                "link": "https://www.youtube.com/embed/Rh3tobg7hEo?si=_Ch0ozm2U0k0UPtA" 
+            },
+            {
+                "title": "React useStae & useEffect",
+                "link": "https://www.youtube.com/embed/-yIsQPp31L0?si=KGwoenLrM_w84MlS" 
             }
         ]
     },
@@ -43,16 +55,20 @@
         "difficulty": "advanced",
         "isSellected": false,
 
-        "heading": "React Advanced",
+        "heading": "React Projects",
 
         "links": [
             {
-                "title": "React Tutorial-5",
-                "link": "https://www.w3schools.com/"
+                "title": "Master React with 10 Projects",
+                "link": "https://www.youtube.com/embed/XrwsMN2IWnE?si=gHbPpQOhBpmTP-qe"
             },
             {
-                "title": "React Tutorial-6",
-                "link": "https://www.w3schools.com/"
+                "title": "React  Interview Projects",
+                "link": "https://www.youtube.com/embed/5ZdHfJVAY-s?si=w7O9YbXMCw_9lShr"
+            },
+            {
+                "title": "Create a Youtube Clone App with React and MUI 5",
+                "link": "https://www.youtube.com/embed/FHTbsZEJspU?si=4Wg2RoKMUo7bGxZj"
             }
         ]
     }

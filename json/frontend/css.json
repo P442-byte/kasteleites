@@ -9,12 +9,16 @@
 
         "links": [
             {
-                "title": "CSS Tutorial-1",
-                "link": "https://www.w3schools.com/"
+                "title": "CSS Basics",
+                "link": "https://www.youtube.com/embed/1PnVor36_40"
             },
             {
-                "title": "CSS Tutorial-2",
-                "link": "https://www.w3schools.com/"
+                "title": "CSS in 5 minutes",
+                "link": "https://www.youtube.com/embed/Z4pCqK-V_Wo"
+            },
+            {
+                "title": "CSS Layout Guide",
+                "link": "https://www.youtube.com/embed/i1FeOOhNnwU"
             }
         ]
     },
@@ -24,16 +28,20 @@
         "difficulty": "intermediate",
         "isSellected": false,
 
-        "heading": "CSS Intermediate",
+        "heading": "CSS Starting Courses",
 
         "links": [
             {
-                "title": "CSS Tutorial-3",
-                "link": "https://www.w3schools.com/"
+                "title": "CSS Crash Course",
+                "link": "https://www.youtube.com/embed/wRNinF7YQqQ?si=M9tcs8zpWFTHQ-d1"
             },
             {
-                "title": "CSS Tutorial-4",
-                "link": "https://www.w3schools.com/"
+                "title": "CSS Tutorial Course",
+                "link": "https://www.youtube.com/embed/OXGznpKZ_sA"
+            },
+            {
+                "title": "HTML/CSS Full Course",
+                "link": "https://www.youtube.com/embed/HGTJBPNC-Gw"
             }
         ]
     },
@@ -43,16 +51,20 @@
         "difficulty": "advanced",
         "isSellected": false,
 
-        "heading": "CSS Advanced",
+        "heading": "CSS Projects",
 
         "links": [
             {
-                "title": "CSS Tutorial-5",
-                "link": "https://www.w3schools.com/"
+                "title": "Creating a Sushi-Themed Website with HTML and CSS",
+                "link": "https://www.youtube.com/embed/QRrPE9aj3wI"
             },
             {
-                "title": "CSS Tutorial-6",
-                "link": "https://www.w3schools.com/"
+                "title": "Creating a Portfolio Website",
+                "link": "https://www.youtube.com/embed/ldwlOzRvYOU"
+            },
+            {
+                "title": "Build and deploy 5 HTML Projects",
+                "link": "https://www.youtube.com/embed/a_iQb1lnAEQ?si=VE_X-hVjb_zChKq-"
             }
         ]
     }

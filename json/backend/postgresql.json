@@ -9,12 +9,16 @@
 
         "links": [
             {
-                "title": "Postgresql Tutorial-1",
-                "link": "https://www.w3schools.com/"
+                "title": "Introduction to PostgreSQL | Part 1",
+                "link": "https://www.youtube.com/embed/74IWNUja05w?si=hBhl93QCen_puFjs"
             },
             {
-                "title": "Postgresql Tutorial-2",
-                "link": "https://www.w3schools.com/"
+                "title": "Introduction to PostgreSQL | Part 2",
+                "link": "https://www.youtube.com/embed/cCnIwizwqEQ?si=2MNI7Ut2uGm96RFm"
+            },
+            {
+                "title": "Introduction to PostgreSQL | Part 3",
+                "link": "https://www.youtube.com/embed/ZuXp8ZmWwK0?si=0HrjyxhEWeOzj7e0"
             }
         ]
     },
@@ -24,16 +28,20 @@
         "difficulty": "intermediate",
         "isSellected": false,
 
-        "heading": "Postgresql Intermediate",
+        "heading": "PostgreSQL Starting Courses",
 
         "links": [
             {
-                "title": "Postgresql Tutorial-3",
-                "link": "https://www.w3schools.com/"
+                "title": "What is PostgreSQL?",
+                "link": "https://www.youtube.com/embed/eMIxuk0nOkU?si=SSuokhmO4t8K9LC6"
             },
             {
-                "title": "Postgresql Tutorial-4",
-                "link": "https://www.w3schools.com/"
+                "title": "Postgresql Basics",
+                "link": "https://www.youtube.com/embed/9ZixI8Xy0T0?si=c_xK3bsS8UZB4qgp"
+            },
+            {
+                "title": "Postgresql Beginner Course",
+                "link": "https://www.youtube.com/embed/SpfIwlAYaKk?si=j8VFbUQXZl3ddXli"
             }
         ]
     },
@@ -43,16 +51,20 @@
         "difficulty": "advanced",
         "isSellected": false,
 
-        "heading": "Postgresql Advanced",
+        "heading": "Postgresql Projects",
 
         "links": [
             {
-                "title": "Postgresql Tutorial-5",
-                "link": "https://www.w3schools.com/"
+                "title": "Master Postgresql",
+                "link": "https://www.youtube.com/embed/85pG_pDkITY?si=qmnySxjoMJ4d2MQN"
             },
             {
-                "title": "Postgresql Tutorial-6",
-                "link": "https://www.w3schools.com/"
+                "title": "Postgresql Full Course",
+                "link": "https://www.youtube.com/embed/qw--VYLpxG4?si=bfUttyLoQbFouEvI"
+            },
+            {
+                "title": "Postgresql Training Course",
+                "link": "https://www.youtube.com/embed/NTbA1V-TtG8?si=zUbRVDnCBXU0GtD2"
             }
         ]
     }
