@@ -1,13 +1,14 @@
 "use client";
 import { useTransition, useState, useEffect } from "react";
 
-import CoursesNavbar from "src/app/components/CoursesNavbar";
-import EmailSection from "src/app/components/EmailSection";
-import Footer from "src/app/components/Footer";
+import CoursesNavbar from "../components/CoursesNavbar";
+import EmailSection from "../components/EmailSection";
+import Footer from "../components/Footer";
 import TabButton from "../components/TabButton";
 import TabButton2 from "../components/TabButton2";
 import Link from "next/link";
 
+import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
 
 export default function Courses() {
@@ -204,6 +205,19 @@ export default function Courses() {
     },
   ];
 
+
+  const handleLeftSlide = () => {
+    console.log("left");
+    var slider = document.getElementById("slider");
+    slider.scrollLeft = slider.scrollLeft - 500;
+  }
+
+  const handleRightSlide = () => {
+    console.log("right");
+    var slider = document.getElementById("slider");
+    slider.scrollLeft += 500;
+  }
+
   return (
     <main className="flex min-h-screen flex-col bg-[#121212]">
       <CoursesNavbar />
@@ -236,20 +250,24 @@ export default function Courses() {
         </div>
 
         
-        <div className="resource-container">
-          {data.filter((d) => d.type === dataType).map((d, i) => 
-              <>
-                <h2 className=' text-white list-heading font-semibold'>{d.heading}</h2>
-                <ul className='list-container' key={i}>
-                  {d.links.map((d, i) =>
-                    
-                      <li className=' text-blue-500 list-item' key={i}><Link href={d.link}>{d.title}</Link></li>
-                    
-                  )}
-                  <br/>
-                </ul>
-              </>
-            )}
+        <div>
+            {data.filter((d, i) => d.type === dataType).map((d, i) =>
+                <div key={i}>
+                  <h2 className=' text-white list-heading font-semibold'>{d.heading}</h2>
+                  <div className="relative flex items-center">
+                    <FaChevronLeft size={40} className=" left-0 z-10 cursor-pointer" onClick={() => handleLeftSlide()} />
+                    <div id="slider" className="w-full h-full overflow-x-scroll whitespace-nowrap scroll-smooth">
+                      <ul className='list-container' key={i}>
+                        {d.links.map((d, i) =>
+                              <li className='w-[220px] inline-block p-2 cursor-pointer hover:scale-105 ease-in-out duration-300 text-blue-500 ' key={i}><Link href={d.link}>{d.title}</Link></li>
+                        )}
+                        <br/>
+                      </ul>
+                    </div>
+                    <FaChevronRight size={40} className=" right-0 z-10 cursor-pointer" onClick={() => handleRightSlide()} />
+                  </div>
+                </div>
+              )}
         </div>
       </div>
       <div className="container mt-24 mx-auto px-12 py-4">
@@ -259,6 +277,8 @@ export default function Courses() {
     </main>
   );
 }
+//resource-container
+//list-item
 
 //EmailSection
 /* <div className="container mt-24 mx-auto px-12 py-4">
