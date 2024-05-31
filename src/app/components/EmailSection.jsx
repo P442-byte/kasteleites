@@ -6,6 +6,7 @@ const EmailSection = () => {
   const [emailSubmitted, setEmailSubmitted] = useState(false);
 
   const handleSubmit = async (e) => {
+    // Handle form submission
   };
 
   return (
@@ -14,15 +15,22 @@ const EmailSection = () => {
       className="grid md:grid-cols-2 my-12 md:my-15 py-10 gap-4 relative"
     >
       <div className="z-10">
-      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '6vh' }}>
-      <Image
-              src="/images/updated/email-image.png"
-              alt="hero image"
-              className="absolute transform -translate-x-1 -translate-y-1 top-1 left-1 py-24"
-              width={500}
-              height={400}
-            />
-      </div>
+        <div
+          style={{
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+            height: '50vh', // Adjusted for better scalability on cellphones
+          }}
+        >
+          <Image
+            src="/images/updated/email-image.png"
+            alt="hero image"
+            className="absolute transform -translate-x-1 -translate-y-1 top-1 left-1 md:py-24" // Adjusted for better scalability on cellphones
+            width={500}
+            height={400}
+          />
+        </div>
       </div>
       <div>
         {emailSubmitted ? (
@@ -43,7 +51,7 @@ const EmailSection = () => {
                 type="email"
                 id="email"
                 required
-                className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
+                className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5 focus:outline-none focus:border-[#008DBA]" // Added focus styles
                 placeholder="jacob@google.com"
               />
             </div>
@@ -59,7 +67,7 @@ const EmailSection = () => {
                 type="text"
                 id="subject"
                 required
-                className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
+                className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5 focus:outline-none focus:border-[#008DBA]" // Added focus styles
                 placeholder="Just saying hi"
               />
             </div>
@@ -73,7 +81,7 @@ const EmailSection = () => {
               <textarea
                 name="message"
                 id="message"
-                className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
+                className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5 focus:outline-none focus:border-[#008DBA]" // Added focus styles
                 placeholder="Let's talk about..."
               />
             </div>
