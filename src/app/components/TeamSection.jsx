@@ -27,7 +27,7 @@ const CardsData = [
     id: 3,
     title: "Dave Cashew",
     description: "Head of Design",
-    image: "/images/profiles/Dave.jpg",
+    image: "/images/profiles/sq3.jpg",
     tag: ["All", "Web"],
   },
 ];
