@@ -10,15 +10,19 @@
         "links": [
             {
                 "title": "Adobe Illustrator Tutorial-1",
-                "link": "https://www.w3schools.com/"
+                "link": "https://www.youtube.com/embed/3NBKRywEbNs?si=WMd33Ifsr6uIeLtB"
             },
             {
                 "title": "Adobe Illustrator Tutorial-2",
-                "link": "https://www.w3schools.com/"
+                "link": "https://www.youtube.com/embed/iQWTSupSrko?si=9rXgwzQCu_-_l0fe"
             },
             {
                 "title": "Adobe Illustrator Tutorial-3",
-                "link": "https://www.w3schools.com/"
+                "link": "https://www.youtube.com/embed/OCnQ0i3svdI?si=F9-pvPAQdbwjeF-E"
+            },
+            {
+                "title": "Adobe Illustrator Tutorial-3",
+                "link": "https://www.youtube.com/embed/XeQo6fT0n_o?si=xNm417FE45KUTFVd"
             }
         ]
     },
@@ -33,15 +37,15 @@
         "links": [
             {
                 "title": "Adobe Illustrator Tutorial-4",
-                "link": "https://www.w3schools.com/"
-            },
-            {
-                "title": "Adobe Illustrator Tutorial-5",
-                "link": "https://www.w3schools.com/"
+                "link": "https://www.youtube.com/embed/S4NjBvo8Bz0?si=TvWRdp2A8qUmDZjE"
             },
             {
                 "title": "Adobe Illustrator Tutorial-6",
-                "link": "https://www.w3schools.com/"
+                "link": "https://www.youtube.com/embed/pKOC1EBmZa0?si=NhjtqwOwYYv907E6"
+            },
+            {
+                "title": "Adobe Illustrator Tutorial-5",
+                "link": "https://www.youtube.com/embed/n_-ygXZUq3U?si=KEYX6HvRjfz26iZr"
             }
         ]
     },
@@ -56,15 +60,15 @@
         "links": [
             {
                 "title": "Adobe Illustrator Tutorial-7",
-                "link": "https://www.w3schools.com/"
+                "link": "https://www.youtube.com/embed/r9gaPGQ1EG0?si=mU-RdznkHvdeCCxn"
             },
             {
                 "title": "Adobe Illustrator Tutorial-8",
-                "link": "https://www.w3schools.com/"
+                "link": "https://www.youtube.com/embed/3RTqLQ1MaQU?si=T3f8AlgFVA7wlZkc"
             },
             {
                 "title": "Adobe Illustrator Tutorial-9",
-                "link": "https://www.w3schools.com/"
+                "link": "https://www.youtube.com/embed/DF4P0cjStkM?si=0aOHcUwZ3xwC948-"
             }
         ]
     }

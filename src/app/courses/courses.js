@@ -263,7 +263,8 @@ export default function Courses() {
                         {d.links.map((d, i) =>
                               <div key={i}>
                                 <iframe
-                                  className='rounded-3xl w-[480px] h-[300px] m-5 inline-block cursor-pointer hover:scale-105 ease-in-out duration-300 text-blue-500 border border-white' key={i}
+                                  className='rounded-3xl lg:w-[480px] lg:h-[300px] w-[300px] h-[200px] m-5 inline-block cursor-pointer hover:scale-105 ease-in-out duration-300 text-blue-500 border border-white' 
+                                  key={i}
                                   src={d.link}
                                   allowFullScreen={true} webkitallowfullscreen="true" mozallowfullscreen="true"
                                 />
@@ -286,3 +287,4 @@ export default function Courses() {
   );
 }
 
+//<h2 className='text-center cursor-pointer hover:scale-105 ease-in-out duration-300 text-white text-xl'>{d.title}</h2>

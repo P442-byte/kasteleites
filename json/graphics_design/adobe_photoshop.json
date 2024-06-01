@@ -9,16 +9,20 @@
 
         "links": [
             {
+                "title": "Adobe Photoshop Tutorial-2",
+                "link": "https://www.youtube.com/embed/dVThXY45jGI?si=FDVA1K0E8FPhfJor"
+            },
+            {
                 "title": "Adobe Photoshop Tutorial-1",
-                "link": "https://www.w3schools.com/"
+                "link": "https://www.youtube.com/embed/7ChDaa8WGb8?si=gt-GgsBQSjh24Ivy"
             },
             {
                 "title": "Adobe Photoshop Tutorial-2",
-                "link": "https://www.w3schools.com/"
+                "link": "https://www.youtube.com/embed/BMGirukzOPU?si=PW_XZV3ea-aTjO6u"
             },
             {
                 "title": "Adobe Photoshop Tutorial-3",
-                "link": "https://www.w3schools.com/"
+                "link": "https://www.youtube.com/embed/r1mwj8AH98Y?si=T-mu-0P7t6Jt_bjm"
             }
         ]
     },
@@ -33,15 +37,39 @@
         "links": [
             {
                 "title": "Adobe Photoshop Tutorial-4",
-                "link": "https://www.w3schools.com/"
+                "link": "https://www.youtube.com/embed/xTzvQkOll2U?si=wCoZEDuC_SA4pgFs"
             },
             {
                 "title": "Adobe Photoshop Tutorial-5",
-                "link": "https://www.w3schools.com/"
+                "link": "https://www.youtube.com/embed/unCS9syPJjg?si=w2rjzQftYEVnl5nh"
+            },
+            {
+                "title": "Adobe Photoshop Tutorial-5",
+                "link": "https://www.youtube.com/embed/ok9cVCETDeE?si=tTdnvf2e2y1xMFms"
             },
             {
                 "title": "Adobe Photoshop Tutorial-6",
-                "link": "https://www.w3schools.com/"
+                "link": "https://www.youtube.com/embed/aNpO6G72O3w?si=oyrx2qHOHyZmpmB5"
+            },
+            {
+                "title": "Adobe Photoshop Tutorial-6",
+                "link": "https://www.youtube.com/embed/doI1eH_nCxs?si=jVmpLV2BgYFM7Q_i"
+            },
+            {
+                "title": "Adobe Photoshop Tutorial-6",
+                "link": "https://www.youtube.com/embed/jBCDKCpsmso?si=gGQE64TCK95Up5M2"
+            },
+            {
+                "title": "Adobe Photoshop Tutorial-6",
+                "link": "https://www.youtube.com/embed/JCwBxVvyL9s?si=jhnC0oB9dEb5m7Ii"
+            },
+            {
+                "title": "Adobe Photoshop Tutorial-6",
+                "link": "https://www.youtube.com/embed/ysShyX50r6U?si=UXQ-U1bI3TowAcru"
+            },
+            {
+                "title": "Adobe Photoshop Tutorial-6",
+                "link": "https://www.youtube.com/embed/TDt2AxVm_7E?si=R99F8uZQjJsxzy2a"
             }
         ]
     },
@@ -56,15 +84,15 @@
         "links": [
             {
                 "title": "Adobe Photoshop Tutorial-7",
-                "link": "https://www.w3schools.com/"
-            },
-            {
-                "title": "Adobe Photoshop Tutorial-8",
-                "link": "https://www.w3schools.com/"
+                "link": "https://www.youtube.com/embed/Wl5CQwmG3uc?si=lk4GdRUYIqXoUONW"
             },
             {
                 "title": "Adobe Photoshop Tutorial-9",
-                "link": "https://www.w3schools.com/"
+                "link": "https://www.youtube.com/embed/_nQKf_Fgk_M?si=0mzHIJmTK5nP9n63"
+            },
+            {
+                "title": "Adobe Photoshop Tutorial-8",
+                "link": "https://www.youtube.com/embed/ZbvLJ5XtPpA?si=22DkTdfb6iNCnKUT"
             }
         ]
     }

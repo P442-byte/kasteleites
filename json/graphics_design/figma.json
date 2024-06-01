@@ -10,15 +10,19 @@
         "links": [
             {
                 "title": "Figma Tutorial-1",
-                "link": "https://www.w3schools.com/"
+                "link": "https://www.youtube.com/embed/dXQ7IHkTiMM?si=x9wbdOdX0La8B0bY"
             },
             {
                 "title": "Figma Tutorial-2",
-                "link": "https://www.w3schools.com/"
+                "link": "https://www.youtube.com/embed/wvFd-z7jSaA?si=X9pL_u7rhnith-U1"
             },
             {
                 "title": "Figma Tutorial-3",
-                "link": "https://www.w3schools.com/"
+                "link": "https://www.youtube.com/embed/lTIeZ2ahEkQ?si=hlMON1QzPutbD6f-"
+            },
+            {
+                "title": "Figma Tutorial-3",
+                "link": "https://www.youtube.com/embed/EQ_FL6u8EyM?si=xHZ9CUO7o0S4GL0N"
             }
         ]
     },
@@ -33,15 +37,15 @@
         "links": [
             {
                 "title": "Figma Tutorial-4",
-                "link": "https://www.w3schools.com/"
-            },
-            {
-                "title": "Figma Tutorial-5",
-                "link": "https://www.w3schools.com/"
+                "link": "https://www.youtube.com/embed/HZuk6Wkx_Eg?si=m4EBl1qMoalk9x6s"
             },
             {
                 "title": "Figma Tutorial-6",
-                "link": "https://www.w3schools.com/"
+                "link": "https://www.youtube.com/embed/8JCG7gkg6fs?si=Q6rM--mSMMNWWfAE"
+            },
+            {
+                "title": "Figma Tutorial-5",
+                "link": "https://www.youtube.com/embed/ezldKx-jPag?si=FTQDqFFa8xf8lgdo"
             }
         ]
     },
@@ -56,15 +60,15 @@
         "links": [
             {
                 "title": "Figma Tutorial-7",
-                "link": "https://www.w3schools.com/"
-            },
-            {
-                "title": "Figma Tutorial-8",
-                "link": "https://www.w3schools.com/"
+                "link": "https://www.youtube.com/embed/FfeuWbZSRj4?si=DuLuAMmCPo7p0Ccb"
             },
             {
                 "title": "Figma Tutorial-9",
-                "link": "https://www.w3schools.com/"
+                "link": "https://www.youtube.com/embed/LfldqERs0aw?si=rOnjVJMojB7-24ak"
+            },
+            {
+                "title": "Figma Tutorial-8",
+                "link": "https://www.youtube.com/embed/RYDiDpW2VkM?si=sfdaXi5GtJC0kkIr"
             }
         ]
     }
