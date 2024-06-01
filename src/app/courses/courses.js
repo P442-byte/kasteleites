@@ -285,14 +285,5 @@ export default function Courses() {
     </main>
   );
 }
-//resource-container
-//list-item
-
-//EmailSection
-/* <div className="container mt-24 mx-auto px-12 py-4">
-        <EmailSection />
-    </div>
-    <Footer /> 
-*/
 
 //<h2 className=' text-center cursor-pointer hover:scale-105 ease-in-out duration-300 text-blue-500 '>{d.title}</h2>
