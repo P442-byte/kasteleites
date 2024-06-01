@@ -255,15 +255,15 @@ export default function Courses() {
         <div>
             {data.filter((d, i) => d.type === dataType).map((d, i) =>
                 <div key={i}>
-                  <h2 className=' text-white list-heading font-semibold'>{d.heading}</h2>
+                  <h2 className='text-white text-2xl list-heading font-bold'>{d.heading}</h2>
                   <div className="relative flex items-center">
-                    <FaChevronLeft size={40} className=" text-slate-200 opacity-20 hover:opacity-80 left-0  cursor-pointer" onClick={() => handleLeftSlide(i)} />
+                    <FaChevronLeft size={40} className="text-slate-200 opacity-20 hover:opacity-80 left-0 cursor-pointer" onClick={() => handleLeftSlide(i)} />
                     <div id={i} className="w-full h-full overflow-x-scroll whitespace-nowrap scroll-smooth scrollbar-hide">
                       <ul className='list-container' key={i}>
                         {d.links.map((d, i) =>
                               <div key={i}>
                                 <iframe
-                                  className=' rounded-3xl w-[480px] h-[300px] m-5 inline-block cursor-pointer hover:scale-105 ease-in-out duration-300 text-blue-500 ' key={i}
+                                  className='rounded-3xl w-[480px] h-[300px] m-5 inline-block cursor-pointer hover:scale-105 ease-in-out duration-300 text-blue-500 border border-white' key={i}
                                   src={d.link}
                                   allowFullScreen={true} webkitallowfullscreen="true" mozallowfullscreen="true"
                                 />
@@ -272,7 +272,7 @@ export default function Courses() {
                         <br/>
                       </ul>
                     </div>
-                    <FaChevronRight size={40} className=" text-slate-200 opacity-20 hover:opacity-80 right-0  cursor-pointer" onClick={() => handleRightSlide(i)} />
+                    <FaChevronRight size={40} className="text-slate-200 opacity-20 hover:opacity-80 right-0 cursor-pointer" onClick={() => handleRightSlide(i)} />
                   </div>
                 </div>
               )}
@@ -286,4 +286,3 @@ export default function Courses() {
   );
 }
 
-//<h2 className=' text-center cursor-pointer hover:scale-105 ease-in-out duration-300 text-blue-500 '>{d.title}</h2>
