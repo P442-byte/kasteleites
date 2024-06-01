@@ -5,8 +5,25 @@ import Image from "next/image";
 const EmailSection = () => {
   const [emailSubmitted, setEmailSubmitted] = useState(false);
 
-  const handleSubmit = async (e) => {
-  };
+  const [name, setName] = useState('');
+    const [email, setEmail] = useState('');
+    const [subject, setSubject] = useState('');
+    const [message, setMessage] = useState('');
+
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+
+        const res = await fetch('/api/email', {
+          method: 'POST',
+          headers: {
+              'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({ name, email, subject, message }),
+        });
+        const data = await res.json();
+        console.log(data);
+        setEmailSubmitted(true);
+    }
 
   return (
     <section
@@ -30,7 +47,24 @@ const EmailSection = () => {
             Email sent successfully!
           </p>
         ) : (
-          <form className="flex flex-col" onSubmit={handleSubmit}>
+          <form className="flex flex-col" onSubmit={(e) => handleSubmit(e)}>
+            <div className="mb-5">
+              <label
+                htmlFor="email"
+                className="text-white block mb-2 text-sm font-medium"
+              >
+                Your name
+              </label>
+              <input
+                value={name} 
+                onChange={(e) => setName(e.target.value)} 
+                type="text" 
+                name="name" 
+                required
+                className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
+                placeholder="Name"
+              />
+            </div>
             <div className="mb-5">
               <label
                 htmlFor="email"
@@ -39,9 +73,10 @@ const EmailSection = () => {
                 Your email
               </label>
               <input
-                name="email"
-                type="email"
-                id="email"
+                value={email} 
+                onChange={(e) => setEmail(e.target.value)} 
+                type="email" 
+                name="email" 
                 required
                 className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
                 placeholder="jacob@google.com"
@@ -55,7 +90,8 @@ const EmailSection = () => {
                 Subject
               </label>
               <input
-                name="subject"
+                value={subject} 
+                onChange={(e) => setSubject(e.target.value)} 
                 type="text"
                 id="subject"
                 required
@@ -71,6 +107,8 @@ const EmailSection = () => {
                 Message
               </label>
               <textarea
+                value={message} 
+                onChange={(e) => setMessage(e.target.value)} 
                 name="message"
                 id="message"
                 className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"

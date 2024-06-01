@@ -261,14 +261,12 @@ export default function Courses() {
                     <div id={i} className="w-full h-full overflow-x-scroll whitespace-nowrap scroll-smooth scrollbar-hide">
                       <ul className='list-container' key={i}>
                         {d.links.map((d, i) =>
-                              <div>
+                              <div key={i}>
                                 <iframe
                                   className=' rounded-3xl w-[480px] h-[300px] m-5 inline-block cursor-pointer hover:scale-105 ease-in-out duration-300 text-blue-500 ' key={i}
                                   src={d.link}
-                                  frameborder="0"
-                                  allowFullScreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"
+                                  allowFullScreen={true} webkitallowfullscreen="true" mozallowfullscreen="true"
                                 />
-                                <h2 className=' text-center cursor-pointer hover:scale-105 ease-in-out duration-300 text-blue-500 '>{d.title}</h2>
                               </div>
                         )}
                         <br/>
@@ -296,3 +294,5 @@ export default function Courses() {
     </div>
     <Footer /> 
 */
+
+//<h2 className=' text-center cursor-pointer hover:scale-105 ease-in-out duration-300 text-blue-500 '>{d.title}</h2>
